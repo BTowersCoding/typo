@@ -5,8 +5,9 @@
 
 (defn init-browser []
   (reset! main-window (BrowserWindow.
-                       (clj->js {:width 800
-                                 :height 600
+                       (clj->js {:width 1000
+                                 :height 500
+                                 :autoHideMenuBar true
                                  :webPreferences
                                  {:nodeIntegration true}})))
   ; Path is relative to the compiled js file (main.js in our case)
