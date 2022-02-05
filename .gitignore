@@ -5,3 +5,7 @@ node_modules/
 resources/public/js
 resources/main.js
 target/
+
+out/
+.clj-kondo/.cache/
+.lsp/.cache/

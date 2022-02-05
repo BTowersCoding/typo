@@ -6,7 +6,7 @@
 (defn init-browser []
   (reset! main-window (BrowserWindow.
                        (clj->js {:width 1000
-                                 :height 500
+                                 :height 460
                                  :autoHideMenuBar true
                                  :webPreferences
                                  {:nodeIntegration true}})))
